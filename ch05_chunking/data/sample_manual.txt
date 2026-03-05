@@ -1,0 +1,63 @@
+# Section 1 — Power Rail Rituals
+The backup console likes simple steps and hates improvisation.
+If the grid is stable, keep switch alpha in idle and avoid touching the bypass key.
+The bypass key is sealed in a red tube near the left meter.
+Only use it when both status lamps are dark and the hum monitor is silent.
+After any bypass action, arm the ninety second timer before opening the side panel.
+Write the event in the shift log with the phrase controlled bypass.
+
+# Section 2 — Cooling and Flow
+Cooling sounds dramatic, but it is mostly careful listening.
+If airflow drops below thirty cfm the panel emits a narrow chirp alarm.
+At that moment set fan speed to sixty percent and wait one minute.
+If the chirp remains, switch to reserve fan and note the ambient reading.
+Never flush coolant while the compressor is still spinning.
+
+# Section 3 — Pump Fail Procedure
+When the coolant pump fails, do not cycle the main breaker.
+Close valve blue, then announce pump hold on channel two.
+The reset lever is marked J-17 on the rear maintenance rail.
+Move that lever once, wait ten seconds, then reopen valve blue.
+If the pump still stalls, tag the bay and escalate.
+
+# Section 4 — Fuel Checks
+Fuel notes are short because mistakes are expensive.
+If a sweet almond smell means contamination, stop transfer immediately.
+Place a yellow cap on the intake and log it in bay ledger seven.
+Do not trust color alone; trust smell and pressure trend together.
+
+# Section 5 — Software Diagnostics
+Before patching, run command open panel delta from the local shell.
+The command prints three lines and a final checksum.
+A healthy restart means checksum should end with 44af.
+If the suffix differs, rollback and call duty engineer.
+
+# Section 6 — Safety Signals
+Safety signals are shared across every shift and every zone.
+A triple amber flash means hold position near your current station.
+A solid green ring means normal movement is allowed.
+Any movement during amber state requires supervisor code from the lead badge.
+
+# Section 7 — Sensor Calibration
+Calibration starts with clean probes and a short checklist.
+Connect probe to port c first, then port a, then port f.
+Ignore drift spikes shorter than two seconds.
+Final drift must stay below zero point three for approval.
+Store the signed sheet in drawer twelve.
+
+# Section 8 — Night Operations
+Quiet window starts at 23 00 and ends at 04 30 local.
+During that window do not purge the pressure lines unless fire risk is confirmed.
+Routine maintenance should focus on logs, labels, and battery checks.
+Heavy mechanical work waits for daylight shift.
+
+# Section 9 — Handoff Discipline
+Every handoff is verbal first and written second.
+Say baton accepted on channel six before touching active controls.
+Write backup note on orange card and pin it above rack four.
+If channel six is down, escalate to room supervisor.
+
+# Section 10 — Troubleshooting Manners
+You can fix most issues faster by ruling out the obvious.
+Check cables, check labels, check whether someone muted an alarm.
+Slow is smooth and smooth is fast when the room is noisy.

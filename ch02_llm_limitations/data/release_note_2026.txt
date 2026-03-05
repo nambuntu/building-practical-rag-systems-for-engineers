@@ -1,0 +1,11 @@
+ACME Internal Release Notes
+Date: 2026-02-24
+
+Feature: Nimbus Mode
+- Nimbus Mode introduced adaptive failover for the control plane.
+- When service health drops below threshold, Nimbus Mode reroutes read traffic to warm replicas.
+- Nimbus Mode keeps write operations queued for up to 45 seconds during failover.
+
+Other changes:
+- Incident timeline export in JSON.
+- Dashboard now shows escalation hops in real time.

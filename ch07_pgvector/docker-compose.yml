@@ -1,0 +1,17 @@
+services:
+  pgvector:
+    image: pgvector/pgvector:pg16
+    container_name: ch07-pgvector
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: rag
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ch07_pgvector_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+
+volumes:
+  ch07_pgvector_data:

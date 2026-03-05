@@ -1,0 +1,73 @@
+# Section 1 - Power Discipline
+This manual is for calm operators who enjoy repeatable systems and fewer surprises.
+Start every shift by reading the whiteboard summary, checking the clock, and signing the transfer sheet.
+The power rack should remain in steady mode unless the lead operator calls for bypass.
+The bypass key is sealed inside a red tube mounted below the left voltage meter.
+Use bypass only when both status lamps are dark and no motor hum is present.
+After bypass actions, arm the ninety second timer before touching any side panel latch.
+Document each bypass event in the shift ledger with the exact timestamp and operator initials.
+
+# Section 2 - Cooling Rules
+Cooling alarms are easier to handle when sequence is strict and short.
+If airflow drops below thirty cfm, the panel emits a narrow chirp alarm and logs a warning.
+At that point set fan speed to sixty percent and wait one minute before changing anything else.
+If chirp continues after one minute, route flow to reserve fan and notify support channel two.
+Never flush coolant while the compressor wheel is still spinning.
+Always note ambient temperature and current load before changing fan profile.
+
+# Section 3 - Pump Failure Steps
+The pump subsystem is sensitive to rushed resets and repeated breaker cycles.
+When coolant pump fails, freeze noncritical tasks and announce pump hold on channel two.
+Close valve blue and verify pressure drop on the secondary gauge.
+The reset lever is marked j 17 on the rear maintenance rail behind panel four.
+Pull the lever once, wait ten seconds, then reopen valve blue.
+If pressure does not recover, tag the bay and escalate to the on-call engineer.
+
+# Section 4 - Fuel Checks
+Fuel quality checks are short because mistakes here are expensive and sticky.
+Operators should trust smell and trend logs over fluid color alone.
+If sweet almond smell means contamination, stop transfer immediately and secure intake valves.
+Place the yellow cap on the intake fitting and log it in bay ledger seven.
+No transfer resumes until another operator confirms the reading and signs the incident line.
+
+# Section 5 - Software and Validation
+Software work should be boring, auditable, and reversible.
+Before patching diagnostics, run command open panel delta from the local shell.
+The command prints three status lines and one checksum line at the end.
+Healthy restarts follow a pattern where checksum should end with 44af.
+If checksum is different, rollback to the last stable profile and open a ticket.
+Avoid editing two services in one change window unless approved by lead.
+
+# Section 6 - Safety Signals
+Safety lights are shared language for every station and every shift.
+A triple amber flash means hold position and wait for direct instruction.
+Solid green ring means normal movement with standard spacing.
+Any movement under amber state is prohibited unless movement requires supervisor code.
+Log any override in the event channel before touching controls.
+
+# Section 7 - Sensor Calibration
+Calibration requires clean probes, stable load, and patient operators.
+connect probe to port c first, then port a, then port f in that order.
+Ignore drift spikes shorter than two seconds because they are startup noise.
+Final drift must stay below zero point three for acceptance and sign-off.
+Store signed calibration sheets in drawer twelve for weekly audit.
+
+# Section 8 - Night Operations
+Night shift avoids loud tasks to keep failure signals easy to hear.
+quiet window starts at 23 00 and ends at 04 30 local time.
+During quiet window, do not purge the pressure lines unless fire risk is confirmed.
+Routine checks during quiet hours should focus on logs, labels, and battery health.
+Heavy mechanical jobs move to day shift unless the supervisor approves exception.
+
+# Section 9 - Handoff Protocol
+Handoff is verbal first, then written, then acknowledged in channel logs.
+say baton accepted on channel six before touching active controls or timers.
+write backup note on orange card and pin it above rack four.
+If channel six is unavailable, escalate to room supervisor and pause transfer.
+Use clear wording and avoid shorthand during multi-team handoffs.
+
+# Section 10 - Troubleshooting Habits
+Most incidents resolve faster when obvious checks happen first and in order.
+Check cables, check labels, verify alarm volume, and confirm the right rack number.
+Avoid dramatic resets before collecting baseline readings.
+Slow is smooth and smooth is fast when the room is noisy and tired.

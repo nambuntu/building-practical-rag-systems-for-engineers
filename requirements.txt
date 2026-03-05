@@ -1,0 +1,13 @@
+# Root convenience install for the code companion repo.
+# If you only run one chapter, install that chapter's requirements.txt instead.
+
+-r ch01_llm_basics/requirements.txt
+-r ch02_llm_limitations/requirements.txt
+-r ch03_embeddings/requirements.txt
+-r ch04_similarity_search/requirements.txt
+-r ch05_chunking/requirements.txt
+-r ch06_vector_store/requirements.txt
+-r ch07_pgvector/requirements.txt
+-r ch08_retrieval_quality/requirements.txt
+-r ch09_prompting_for_rag/requirements.txt
+-r ch10_full_pipeline/requirements.txt
