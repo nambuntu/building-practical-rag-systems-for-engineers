@@ -1,6 +1,6 @@
 # Build practical RAG systems for engineer code companion
 
-This repo accompanies **Build practical RAG systems for engineer**.
+This repo accompanies **[Build practical RAG systems for engineer](https://amzn.eu/d/0icpFJEW)**.
 It contains chapter-by-chapter labs you can run, break, and inspect without guesswork.
 
 Repo: https://github.com/nambuntu/building-practical-rag-systems-for-engineers
